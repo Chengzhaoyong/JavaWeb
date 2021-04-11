@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+
+
+        var en=encodeURI("我爱你");
+        document.write(en);
+        var de=decodeURI(en);
+        document.write("<br>"+de);
+
+
+        var en1=encodeURIComponent("我爱你");
+        document.write(en1);
+        var de1=decodeURIComponent(en1);
+        document.write("<br>"+de1);
+        document.write("<br>")
+        var en=encodeURI("https://www.com/我爱你");
+        document.write(en);
+        var de=decodeURI(en);
+        document.write("<br>"+de);
+
+
+        var en1=encodeURIComponent("https://www.com/我爱你");
+        document.write(en1);
+        var de1=decodeURIComponent(en1);
+        document.write("<br>"+de1);
+
+        var s="12bfei2";
+        var s1=parseInt(s);
+        alert(s1);
+
+        var s2="alert(23)";
+        eval(s2); //解析js代码并执行
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

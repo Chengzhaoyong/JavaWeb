@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动跳转</title>
+    <script>
+        window.onload=function () {
+     var time=document.getElementById("time");
+     var second=5;
+     function  fun() {
+         second--;
+         if(second<=0){
+             location.href="https://www.baidu.com";
+
+         }
+         time.innerHTML=second+"";
+
+     }
+
+     setInterval(fun,1000);
+        }
+    </script>
+</head>
+<body>
+<p style="text-align: center"><span id="time">5</span>秒自动跳转...</p>
+
+</body>
+</html>

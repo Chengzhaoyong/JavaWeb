@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    //基本格式
+    var person={"name":"zhangsan",age:23,"gender":true};
+    for (var key in person){
+        var value=person[key];
+        alert(key+":"+value);
+    }
+//数组格式
+    var ps=[{"name":"zhangsan",age:23,"gender":true},
+        {"name":"lisi",age:23,"gender":true},
+        { "name":"wanguw",age:23,"gender":true}];
+    for(var i=0;i<ps.length;i++){
+        var p=ps[i];
+        for (var key in p){
+            var value=p[key];
+            alert(key+":"+value);
+        }
+     //嵌套
+        var ps1={
+
+            "person":[{"name":"zhangsan",age:23,"gender":true},
+                {"name":"lisi",age:23,"gender":true},
+                { "name":"wanguw",age:23,"gender":true}]
+        }
+    }
+
+</script>
+<body>
+
+</body>
+</html>

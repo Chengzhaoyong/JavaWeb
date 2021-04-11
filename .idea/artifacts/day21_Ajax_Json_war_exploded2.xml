@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day21_Ajax&amp;Json:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/day21_Ajax_Json_war_exploded2</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="day21_Ajax&amp;Json/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day21_Ajax&amp;Json" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/day21_Ajax&amp;Json/web/lib/jackson-core-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/day21_Ajax&amp;Json/web/lib/jackson-databind-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/day21_Ajax&amp;Json/web/lib/jackson-annotations-2.2.3.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

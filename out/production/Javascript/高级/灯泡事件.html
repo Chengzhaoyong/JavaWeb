@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>灯泡开关</title>
+    <script>
+        window.onload=function () {
+            var light=document.getElementById("light");
+            var flag=false;
+
+            light.onclick=function () {
+                if (flag) {
+                    light.src = "img/off.gif";
+                } else {
+                    light.src = "img/on.gif";
+                    flag = true;
+                }
+
+            }
+
+        }
+    </script>
+
+</head>
+<body>
+<img src="img/off.gif" id="light">
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<students>
+<student id="itcast">
+	<name number="itcast_0001">张三</name>
+	<age>18</age>
+	<sex>male</sex>
+</student>
+
+	<student id="itcast1">
+		<name id="hema_0002">lisi</name>
+		<age>12</age>
+		<sex>male</sex>
+	</student>
+
+</students>
